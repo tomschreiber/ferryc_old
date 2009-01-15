@@ -1,0 +1,55 @@
+name: ferryc
+version: 0.1
+cabal-version: >=1.2
+license: AllRightsReserved
+license-file: ""
+copyright:
+maintainer:
+build-depends: HDBC >=1.1.3, HDBC-odbc >=1.1.3.0, base -any,
+               haskell98 >=1.0, hxt >=7.3, parsec >=2.0, process >=1.0,
+               directory >=1.0, pretty >=1.0
+stability:
+homepage:
+package-url:
+synopsis:
+description:
+category:
+author:
+tested-with:
+data-files:
+extra-source-files:
+extra-tmp-files:
+
+executable: ferryc
+main-is: Main.hs
+buildable: True
+cc-options:
+ld-options:
+frameworks:
+c-sources:
+extensions:
+extra-libraries:
+extra-lib-dirs:
+includes:
+install-includes:
+include-dirs:
+hs-source-dirs: src
+other-modules: AlgbRewrites.AlgbRewrite1 AlgbRewrites.AlgbRewrite2
+               AlgbRewrites.TIRewrite1 AlgbRewrites.TIRewrite2 DB.DB Props.COLS
+               Props.DENSE Props.ONE Props.UNIQUE Utils.AssociationList Utils.Int
+               Algb2DAG Algb2DOT Algb2DOTChildNodeIDs Algb2DOTColors
+               Algb2DOTLabels Algb2DOTLabels_LaTex Algb2DOT_LaTex Algb2XML
+               Algb2XMLUtils Annotater AttributeNameTransformation Core2Algb
+               Core2AlgbUtils CoreInference_EmptySubLists CoreRewrite_Append
+               CoreRewrite_Append2 CoreRewrite_AppendOptimized
+               CoreRewrite_EmptySubListsAwareAggregates
+               CoreRewrite_EmptySubListsAwareAppend Lang LangAlgb LangCommon
+               LangCore Main Normalize Parser PrettyPrint_Lang
+               PrettyPrint_LangCore TI2DAG TI2Dot TI2Dot_LaTex TI2XML
+               TI2XMLUtils TypeChecker_RT_GT XML2Alg XML2AlgUtils XML2TI
+               XPathUtils
+ghc-prof-options:
+ghc-options: -fglasgow-exts -optl -s
+hugs-options:
+nhc-options:
+jhc-options:
