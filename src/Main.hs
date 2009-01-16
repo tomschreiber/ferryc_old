@@ -12,6 +12,8 @@
 -}
 -----------------------------------------------------------------------------------------
 
+-- This should be stripped down.  Significantly.
+
 module Main where
 
 import Lang
